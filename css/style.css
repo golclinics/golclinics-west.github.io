@@ -387,12 +387,16 @@ p {
     font-size: 20px;
 }
 
+tr td {
+    column-width: 35vw;
+}
+
 tr td:first-of-type {
-   column-width: 18vw; 
+   column-width: 20vw; 
 }
 
 tr td:last-of-type {
-    column-width: 20vw;
+    column-width: 24vw;
 }
 
 /*******************
