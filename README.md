@@ -1,3 +1,3 @@
-# golclinics.github.io
+# golclinics-west.github.io
 
-GoL Clinics website.
+GoL Clinics West Africa Website.
