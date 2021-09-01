@@ -194,6 +194,7 @@ p {
 
 .home-desc-center {
     display: table-cell;
+
     vertical-align: middle;
 }
 
@@ -386,6 +387,14 @@ p {
     font-size: 20px;
 }
 
+tr td:first-of-type {
+   column-width: 18vw; 
+}
+
+tr td:last-of-type {
+    column-width: 20vw;
+}
+
 /*******************
    6. Testimonial
 ********************/
@@ -421,7 +430,8 @@ p {
     width: 10px;
     border-radius: 50%;
     height: 10px;
-    margin: 0px 2px filter: Alpha(Opacity=50);
+    margin: 0px 2px; 
+    filter: Alpha(Opacity=50);
     background: #ff5858;
     -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
